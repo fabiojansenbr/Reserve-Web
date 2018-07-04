@@ -1,13 +1,14 @@
 {
-  "name": "client",
+  "name": "Reserve-Web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://msvalandro.github.io/Reserve-Web",
   "engines": {
     "npm": "3.5.2",
     "node": "8.10.0"
   },
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
@@ -24,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
